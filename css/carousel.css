@@ -38,6 +38,13 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+.jumbotron {
+	/*background: url("../img/bg.png") no-repeat scroll center center rgba(0, 0, 0, 0);*/
+}
+
+.header {
+	margin: 70px auto;
+}
 /* Carousel base class */
 .carousel {
   height: 500px;
