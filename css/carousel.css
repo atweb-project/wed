@@ -45,6 +45,10 @@ body {
 .header {
 	margin: 70px auto;
 }
+.titlefirst {
+	margin-bottom: 50px;
+    margin-top: 0 !important;
+}
 /* Carousel base class */
 .carousel {
   height: 500px;
