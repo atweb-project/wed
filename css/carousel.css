@@ -2,7 +2,16 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+@font-face {
+	font-family: 'SmCoGrBC';
+	src: url('fonts/SmCoGrBC.eot');
+	src: local('SmCoGrBC'), url('fonts/SmCoGrBC.woff') format('woff');
+	src: url('fonts/SmCoGrBC.ttf') format('truetype');	
+}
+
+
 body {
+  font-family: "SmCoGrBC";
   padding-bottom: 40px;
   color: #5a5a5a;
 }
@@ -105,9 +114,87 @@ body {
   letter-spacing: -1px;
 }
 
-#map-container { 
+#map-container, #map-container_1 { 
 	height: 300px; 
 	margin-top: 30px;
+}
+
+/* ----------------- 11. RSVP ----------------- */
+
+.rsvp-text h2 {
+	padding-top: 2em;
+	font-size: 2.4em;
+	color: #FFF;
+	visibility: hidden;
+}
+
+.rsvp-text p {
+	color: #FFF;
+	font-size: 1.2em;
+	font-weight: 300;
+	padding: 0.6em 0;
+	width: 680px;
+	margin: 1.2em auto;
+	text-align: center;
+	border: 2px solid #FFF;
+	visibility: hidden;
+}
+
+
+
+/* --------------- 12. FORM --------------- */
+
+.contact-form {
+	padding-top: 1em;
+}
+
+.radio-buttons {
+	font-weight: 300;
+}
+
+.attending-text {
+	color: #D65679;
+	font-style: italic;
+	font-size: 1em !important;
+	font-weight: 500;
+}
+
+.form-group {
+	padding-top: 0.2em;
+}
+
+.form-control { 
+	border-radius: 0;
+}
+
+.form-control:focus {
+	border-color: #6E6E86;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#res {
+	border-radius: 0;
+	float: right;
+}
+
+#submit {
+	background-color: #D65679;
+	border-color: #CC4569;
+	border-radius: 0;
+	float: right;
+	margin-right: 0.2em;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
+	background-color: #6E6E86;
+	border-color: #5C5C6D;
+}
+
+.rsvp-image {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 1.6em;
 }
 
 /* RESPONSIVE CSS
@@ -149,4 +236,10 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+@media only screen and (max-width: 1024px) {
+	.rsvp-image {
+		display: none;
+	}
 }
