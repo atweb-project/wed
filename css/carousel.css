@@ -54,7 +54,7 @@ body {
 .header {
 	margin: 70px auto;
 }
-.titlefirst {
+.titlefirst, .titlesecond, .titlethird, .titlefourth, .titlefifth {
 	margin-bottom: 50px;
     margin-top: 0 !important;
 }
