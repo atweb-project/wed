@@ -153,7 +153,7 @@ body {
 }
 
 .attending-text {
-	color: #D65679;
+	color: #cf2f2f;
 	font-style: italic;
 	font-size: 1em !important;
 	font-weight: 500;
@@ -179,7 +179,7 @@ body {
 }
 
 #submit {
-	background-color: #D65679;
+	background-color: #cf2f2f;
 	border-color: #CC4569;
 	border-radius: 0;
 	float: right;
